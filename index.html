@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <title>Happy Monthsarry</title>
+    <title>Congrats!!</title>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,21 +12,21 @@
 <body>
     <div class="greetings">
         
-        <span>H</span>
-        <span>A</span>
-        <span>P</span>
-        <span>P</span>
-        <span>Y</span>
-        <span>M</span>
+        <span>C</span>
         <span>O</span>
         <span>N</span>
+        <span>G</span>
+        <span>R</span>
         <span>T</span>
-        <span>H</span>
         <span>S</span>
+        <span>!</span>
+        <span>!</span>
+<br>
+        <span>M</span>
         <span>A</span>
-        <span>R</span>
-        <span>R</span>
-        <span>Y</span>
+        <span>A</span>
+        <span>M</span>
+        <span>_</span>
         <span>C</span>
         <span>H</span>
         <span>E</span>
@@ -34,14 +34,33 @@
         <span>C</span>
         <span>A</span>
     </div>
-    <div class="description">
-        <span>Click the button to see my virtual gift </span>
-    </div>
     <div class="button">
         <button class="btn">
             <a href="flower.html">HERE</a>
         </button>
         
     </div>
+    <script src="confetti.js"></script>
+    <script>
+
+        // start
+
+        const start = () => {
+            setTimeout(function() {
+                confetti.start()
+            }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+        };
+
+        //  Stop
+
+        const stop = () => {
+            setTimeout(function() {
+                confetti.stop()
+            }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+        };
+
+        start();
+        stop();
+    </script>
 </body>
 </html>
